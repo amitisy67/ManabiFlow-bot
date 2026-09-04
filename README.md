@@ -1,63 +1,45 @@
 # 🌸 ManabiFlow
 
-A simple Telegram study companion built with Python to help users organize their study sessions and stay focused with Pomodoro.
+A simple Telegram study companion built with Python.
 
 ## 📚 About the Project
 
-ManabiFlow is a Telegram bot designed to make studying easier and more organized.
+ManabiFlow is a Telegram bot created to make studying more organized and focused.
 
-Users can add their study sessions, view or remove them, and start a Pomodoro timer — all directly through Telegram.
-
-The bot also saves study sessions so they are still available after restarting the program.
+It allows users to manage their study sessions and use a Pomodoro timer directly from Telegram, while keeping each user's study data separate and saved between restarts.
 
 ## ✨ What Does It Do?
 
-ManabiFlow helps users manage their study sessions through a simple Telegram interface.
+ManabiFlow provides a simple study workflow:
 
-You can:
-
-- ➕ Add a study session
-- 📚 View your saved sessions
-- 🗑️ Remove a session
-- 🍅 Start a 25-minute Pomodoro timer
-- 💾 Keep your study sessions saved after restarting the bot
-- 👤 Store study sessions separately for each Telegram user
+1. Add the subject you want to study and its duration.
+2. View your saved study sessions.
+3. Remove sessions you no longer need.
+4. Start a 25-minute Pomodoro when you're ready to focus.
+5. Your study sessions are automatically saved for the next time you run the bot.
 
 ## 🚀 Features
 
-### ➕ Add Sessions
-Add a subject and the amount of time you want to study.
-
-Example:
-
-`Python 30`
-
-### 📚 View Sessions
-See all of your saved study sessions and their study durations.
-
-### 🗑️ Remove Sessions
-Remove a study session whenever you want.
-
-### 🍅 Pomodoro Timer
-Start a 25-minute Pomodoro timer directly from Telegram.
-
-### 💾 Data Persistence
-Study sessions are stored in a JSON file, so your data remains available after restarting the bot.
-
-### 👤 User-Specific Data
-Each Telegram user has their own study sessions.
+- ➕ Add study sessions
+- 📚 View saved sessions
+- 🗑️ Remove sessions
+- 🍅 25-minute Pomodoro timer
+- 👤 Separate data for each Telegram user
+- 💾 Persistent storage using JSON
+- 🧵 Non-blocking Pomodoro timer using threading
 
 ## 🛠️ Technologies Used
 
-- **Python**
-- **pyTelegramBotAPI (Telebot)**
-- **JSON**
-- **Threading**
-- **Telegram Bot API**
+- **Python** — Main programming language
+- **pyTelegramBotAPI (Telebot)** — Telegram bot development
+- **Telegram Bot API** — Communication with Telegram
+- **JSON** — Saving study-session data
+- **Threading** — Running the Pomodoro timer without blocking the bot
 
 ## ▶️ How to Run
 
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone YOUR_REPOSITORY_URL
+cd ManabiFlow
