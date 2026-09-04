@@ -38,8 +38,6 @@ ManabiFlow provides a simple study workflow:
 
 ## ▶️ How to Run
 
-### 1. Clone the repository
+If you'd like to try the project, you can find ManabiFlow on Telegram:
 
-```bash
-git clone YOUR_REPOSITORY_URL
-cd ManabiFlow
+**Telegram:** `@ManabiFlow`
